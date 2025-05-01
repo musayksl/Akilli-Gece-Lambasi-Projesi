@@ -42,6 +42,7 @@ void loop() {
 
   delay(200);
 }
+```
 
 ## Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasını inceleyin.
