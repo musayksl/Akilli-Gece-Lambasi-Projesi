@@ -1,3 +1,6 @@
+## Kod Açıklaması
+Arduino analog pininden (A0) gelen ışık değerine göre karar verir.
+```cpp
 int ldrPin = A0;
 int ledPin = 9;
 
@@ -18,3 +21,4 @@ void loop() {
 
   delay(200);
 }
+```
