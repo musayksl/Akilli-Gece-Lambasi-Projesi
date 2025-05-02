@@ -34,7 +34,7 @@ void loop() {
   int ldrValue = analogRead(ldrPin);
   Serial.println(ldrValue);
 
-  if (ldrValue > 800) {  // Karanlıksa (800 eşik değeri ortama göre değiştirilebilir)
+  if (ldrValue > 800) {  // Karanlıksa (800 eşik değeri ortamın aydınlığına göre düzenlenebilir )
     digitalWrite(ledPin, HIGH);
   } else {
     digitalWrite(ledPin, LOW);
